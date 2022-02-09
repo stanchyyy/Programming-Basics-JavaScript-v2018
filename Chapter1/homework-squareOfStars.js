@@ -1,5 +1,4 @@
-
-function Solve([n]){
+function solve([n]){
 
     for(let i=0;i<n;i++){
         let rowToPrint = "";
@@ -20,6 +19,6 @@ function Solve([n]){
     }
 }
 
-Solve([3]);
-Solve([4]);
-Solve([5]);
+solve([3]);
+solve([4]);
+solve([5]);
