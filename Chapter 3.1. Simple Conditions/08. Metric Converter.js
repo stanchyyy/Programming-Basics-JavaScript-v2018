@@ -19,7 +19,7 @@ function MetricConverter([inputLenght,inputUnit,outputUnit]){
         lenght*=1000;
     }
     if(inUnit==="ft"){
-        lenght/=3.2808;
+        lenght/=3.2808399;
     }
     if(inUnit==="yd"){
         lenght*= 0.9144;
