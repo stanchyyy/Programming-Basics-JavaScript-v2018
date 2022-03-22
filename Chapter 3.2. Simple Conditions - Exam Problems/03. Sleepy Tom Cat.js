@@ -47,7 +47,4 @@ o На втория ред отпечатайте разликата от нор
 Примерен вход и изход
 Вход 113 Изход Tom will run away 3 hours and 47 minutes for play
 Вход 20 Изход Tom sleeps well 95 hours and 25 minutes less for play  
-
-
-
 */
