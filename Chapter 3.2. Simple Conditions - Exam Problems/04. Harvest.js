@@ -14,7 +14,7 @@ function Harvest([arg_landSize,arg_grapesPerSquareMeter,arg_wineNeeded,arg_worke
         result = `It will be a tough winter! More ${Math.floor(wineNeeded-wineProduced)} liters wine needed.`;
     }
     else {
-        result = `Good harvest this year! Total wine: ${Math.floor(wineProduced)} liters.\n${Math.ceil(wineProduced-wineNeeded)} liters left -> ${Math.ceil(wineProduced-wineNeeded)/workersCount} liters per person.`;
+        result = `Good harvest this year! Total wine: ${Math.floor(wineProduced)} liters.\n${Math.ceil(wineProduced-wineNeeded)} liters left -> ${Math.ceil((wineProduced-wineNeeded)/workersCount)} liters per person.`;
     }
 
     console.log(result);
